@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.active {
+    color: white;
+    background-color: crimson;
+}
+
+* {
+  font-family: "Helvetica Neue";
+}
+
+p {
+  font-size: 0.85em;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.browser text {
+  text-anchor: end;
+}
+
+.essay {
+	background-color: #f6f6f6;
+	border: 1px solid #E3E3E3;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+	margin-bottom: 20px;
+	min-height: 20px;
+	padding: 40px 19px 19px 45px;
+	position: relative;
+  }
+
+  dt {
+  	font-weight: bold;
+    color: crimson;
+    font-size: 10em;
+  }
+
+  dd {
+  	padding-bottom: 12px;
+    font-size: 5em;
+  }
+</style>
+
+<body>
+  <div class = "essay">
+    <dl>
+      <dt>Earthquake</dt>
+      <!-- <dt>Terrorism</dt> -->
+      <dd>
+        <p>Overview</p>
+      </dd>
+    </dl>
+  </div>
+   <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+     <!-- <li><a href="index.html">Home</a></li> -->
+      <!-- <li><a href="slide1.html">Animated map</a></li> -->
+      <li><a  href="page2.html">Map - Where in the world (Page 2)?</a></li>
+      <li><a class="" href="page4.html">Map - Efects in the world (Page 4)?</a></li>
+      <!-- <li><a href="slide3.html">Who are they targeting?</a></li> -->
+      <!-- <li><a href="slide4.html">How do they attack?</a></li> -->
+      <li><a href="about.html">About the Visualization</a></li>
+    </ul>
+
+</body>
+
+<script>
+
+</script>
